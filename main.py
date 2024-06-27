@@ -30,7 +30,16 @@ def main():
         else:
             maxval = num3
             
-    if (
+    if (num1 > minval):
+        if (num1 < maxval):
+            median = num1
+        elif (num2 > minval):
+            if (num2 < maxval):
+                median = num2
+        elif (num3 > minval):
+            if (num3 < maxval):
+                median = num3
+    
         
           
     print(minval, median, maxval)
